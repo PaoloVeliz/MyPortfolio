@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');  
+
+.general-info {
+  height: 100vh;
+  background-color: #fffcf2;
+}
+.titles {
+  // z-index: 1;
+  display: block;
+  margin-left: 1%;
+  margin-bottom: 5px;
+}
+.main-titles {
+  // font-family: 'Roboto Condensed', sans-serif;
+
+  display: flex;
+  justify-content: flex-start;
+}
+.card {
+  // background: #eb5e28;
+  height: 200px;
+  border-radius: 10px;
+  width: 50%;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // justify-content: center;
+
+  // margin-left: 200px;
+}
+.main  {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.second {
+  display: flex;
+  flex-direction: row;
+  justify-content: center ;
+  margin-right: 10px;
+  
+}
+
+.cards {
+    // display: flex;
+    padding-top: 20px;
+    width: 100%;
+    // background: #000;
+
+}
+.card-image {
+  background: none;
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+  justify-content: center;
+  height: 250px;
+  .profile-photo{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;;
+  }
+}
+.card-tittle {
+color: #252422;
+  display: flex;
+  justify-content: center ;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.card-body {
+// @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap');
+font-size: 30px;
+color: #252422;
+  align-items: center;
+  // font-family: 'PT Sans Caption', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.card-body ul {
+    list-style-type: none;
+margin-bottom: 5px;
+// font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+
+
+.primary {
+  color: #252422;
+  font-size: 300%;
+  margin-top: 30px;
+}
+
+.secondary {
+  color: #ccc5b9;
+  font-size: 250%;
+}
+
+.highlighted {
+  color: #eb5e28;
+}
