@@ -15,7 +15,13 @@
     margin-top: 0;
     margin-bottom: 0px;
 }
-
+.media {
+    margin-right: 30px;
+}
+.social {
+    margin-left: 45px;
+    color: #EB5E28;
+}
 .center {
     display: flex;
     align-items: center;
@@ -49,7 +55,9 @@
   font-family: 'Roboto Condensed', sans-serif;
 
 }
-
+.go-to {
+    color: #EB5E28;
+}
 .primary {
     color: #252422;
     font-size: 300%;
