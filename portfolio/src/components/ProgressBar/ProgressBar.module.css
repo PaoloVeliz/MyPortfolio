@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+.titlePrimary {
+  font-family: 'Roboto Condensed', sans-serif;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      width: 100%;
+      height: 100%;
+      color: white;
+      font-size: 100px;
+}
+
+.skillBar {
+  width: 100%;
+  height: 10px;
+  background: #f4392f;
+  display: block;
+}
+
+.skill {
+    margin-bottom: 35px;
+    display: flex;
+flex-direction: column;
+}
+
+.skillBlock {
+ width: 90%;
+ height: 25px;
+ background: gray;
+ border-radius: 30px;
+ overflowX: hidden;
+}
+
+.skillContent {
+ height: 25px;
+ background:#6F1D1B ;
+ border-radius: 35px;
+}
+
+.skill2 .skillCount2 {
+right: 0;
+}

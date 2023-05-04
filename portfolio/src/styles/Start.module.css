@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+.Start {
+    z-index: 0;
+    margin-top: 25%;
+    margin-right: 25%;
+    display: block;
+}
+
+.icon {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+.media {
+    margin-right: 30px;
+}
+.social {
+    margin-left: 120px;
+    color: #EB5E28;
+}
+.center {
+    display: flex;
+    align-items: center;
+}
+
+.rectangleicon {
+    position: absolute;
+    z-index: 1;
+    /* // margin: 0; */
+    margin-right: 30%;
+    margin-top: 5%;
+    background: #EB5E28;
+    height: 500px;
+    width: 150px;
+}
+
+.circleicon {
+    z-index: 2;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-right: 21%;
+    background: #252422;
+    height: 300px;
+    width: 300px;
+}
+.titlesprimary {
+    /* // z-index: 1; */
+    display: inline;
+    margin-left: 6%;
+    margin-bottom: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.titles {
+    /* // z-index: 1; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.goto {
+    color: #EB5E28;
+}
+.primary {
+    color: #252422;
+    font-size: 300%;
+}
+
+.secondary {
+    color: #CCC5B9;
+    font-size: 250%;
+}
+
+.highlighted {
+    color: #EB5E28;
+
+}

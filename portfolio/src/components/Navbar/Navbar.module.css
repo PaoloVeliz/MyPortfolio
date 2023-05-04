@@ -1,0 +1,19 @@
+.main {
+  background: none;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+}
+.link:active{
+  background:olive;
+}
+
+.link:focus{
+  background:olive;
+}
